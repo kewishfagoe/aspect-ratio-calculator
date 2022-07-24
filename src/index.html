@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aspect Ratio Calculator</title>
+
+    <link rel="icon" href="assets/images/four-nodes.svg" sizes="any" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    
+    <main class="container">
+        <header>
+            <h1>Aspect Ratio Calculator</h1>
+        </header>
+        <section>
+            <fieldset>
+                <legend>Enter Width & Height Values</legend>
+                <div>
+                    <label for="width">Width: </label>
+                    <input type="text" id="width" value="1920" autocomplete="off" placeholder="0">
+                </div>
+                <div>
+                    <label for="height">Height: </label>
+                    <input type="text" id="height" value="1080" autocomplete="off" placeholder="0">
+                </div>
+                <div class="error-message error-message-first">Please enter positive whole numbers for width and height.</div>
+            </fieldset>
+        </section>
+        <section>
+            <p class="aspect-ratio-output">The aspect ratio is: <span id="ratio">16:9</span></p>
+        </section>
+        <section class="preview">
+            <div id="previewBox">
+                <p>Preview</p>
+            </div>
+        </section>
+        <section>
+             <fieldset>
+                <legend>Enter a new Width value to calculate a new Height or vice versa, which sticks to the aspect ratio.</legend>
+                <div>
+                    <label for="newWidth">Width: </label>
+                    <input type="text" id="newWidth" value="" autocomplete="off" placeholder="0">
+                </div>
+                <div>
+                    <label for="newHeight">Height: </label>
+                    <input type="text" id="newHeight" value="" autocomplete="off" placeholder="0">
+                </div>
+                <div class="error-message error-message-second">Please enter positive whole numbers for width or height.</div>
+            </fieldset>
+        </section>
+        <footer>
+            <p>Made with ♡ by Kewish</p>
+            <a href="https://github.com/kewishfagoe" rel="noopener noreferrer">GitHub &#8599;</a>
+            <a href="https://twitter.com/KewishFagoe" rel="noopener noreferrer">Twitter &#8599;</a>
+        </footer>
+    </main>
+
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>

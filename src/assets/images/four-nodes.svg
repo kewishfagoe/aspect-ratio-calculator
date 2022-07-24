@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2048px" height="2048px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2048 2048"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:none}
+    .fil1 {fill:#424242;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_242343816">
+   <rect id="_242343984" class="fil0" width="2048" height="2048"/>
+   <rect id="_242343864" class="fil0" x="255.999" y="255.999" width="1536" height="1536"/>
+  </g>
+  <polygon class="fil1" points="300.32,268.319 528.851,268.319 560.852,268.319 560.852,300.32 560.852,528.851 560.852,560.852 528.851,560.852 300.32,560.852 268.319,560.852 268.319,528.851 268.319,300.32 268.319,268.319 "/>
+  <polygon class="fil1" points="1519.15,268.319 1747.68,268.319 1779.68,268.319 1779.68,300.32 1779.68,528.851 1779.68,560.852 1747.68,560.852 1519.15,560.852 1487.15,560.852 1487.15,528.851 1487.15,300.32 1487.15,268.319 "/>
+  <polygon class="fil1" points="300.32,1487.15 528.851,1487.15 560.852,1487.15 560.852,1519.15 560.852,1747.68 560.852,1779.68 528.851,1779.68 300.32,1779.68 268.319,1779.68 268.319,1747.68 268.319,1519.15 268.319,1487.15 "/>
+  <polygon class="fil1" points="446.587,528.851 446.587,1519.15 382.585,1519.15 382.585,528.851 "/>
+  <polygon class="fil1" points="1665.41,528.851 1665.41,1519.15 1601.41,1519.15 1601.41,528.851 "/>
+  <polygon class="fil1" points="528.851,1601.42 1519.15,1601.42 1519.15,1665.42 528.851,1665.42 "/>
+  <polygon class="fil1" points="528.851,382.581 1519.15,382.581 1519.15,446.582 528.851,446.582 "/>
+  <polygon class="fil1" points="1519.15,1487.15 1747.68,1487.15 1779.68,1487.15 1779.68,1519.15 1779.68,1747.68 1779.68,1779.68 1747.68,1779.68 1519.15,1779.68 1487.15,1779.68 1487.15,1747.68 1487.15,1519.15 1487.15,1487.15 "/>
+ </g>
+</svg>
