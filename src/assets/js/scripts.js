@@ -50,21 +50,20 @@ window.addEventListener("DOMContentLoaded", function() {
     }
 
     function create_preview() {
-        // Formula: (original height / original width) x new width = new height
-
         const previewBox = document.querySelector("#previewBox");
 
         const width = document.querySelector("#width").value;
         const height = document.querySelector("#height").value;
         const maxWidth = 200;
         
+        // Formula: (original height / original width) x new width = new height
         const newHeight = (height / width) * maxWidth;
         
         // if calculated height is larger than 200px, calculate new width with maxHeight 
         if(newHeight > 200) {
-            // Formula: (original width / original height) x new height = new width
             const maxHeight = 200;
-
+            
+            // Formula: (original width / original height) x new height = new width
             const newWidth = (width / height) * maxHeight;
             const formattedWidth = Math.round(newWidth) + "px";
 
@@ -101,7 +100,7 @@ window.addEventListener("DOMContentLoaded", function() {
             newWidthInput.disabled = false;
             newHeightInput.disabled = false;
 
-            //get html element to display result in
+            // get html element to display result in
             const ratioResult = document.querySelector("#ratio");
 
             // calculate aspect ratio
@@ -163,6 +162,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
     function calculate_new_width() {
         // Formula: (original width / original height) x new height = new width
+        
         // get width and height values
         const width = document.querySelector("#width").value;
         const height = document.querySelector("#height").value;
