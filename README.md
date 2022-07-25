@@ -9,6 +9,26 @@ aspect ratio of the original image. This project serves me for that particular u
 
 ![](screenshot.png)
 
+## Run Locally
+
+Clone the project
+
+```bash
+git clone https://github.com/kewishfagoe/aspect-ratio-calculator.git aspect-ratio-calculator
+```
+
+Navigate to the project source directory
+
+```bash
+cd ./aspect-ratio-calculator/src/
+```
+
+Open the index.html file directly in your browser or serve it with a local server.
+
+```bash
+start ./index.html
+```
+
 ## Tech Stack
 
 - HTML & CSS
