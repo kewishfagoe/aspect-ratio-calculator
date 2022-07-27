@@ -29,6 +29,12 @@ Open the index.html file directly in your browser or serve it with a local serve
 start ./index.html
 ```
 
+Install NPM dependencies to build project
+
+```bash
+npm ci
+```
+
 ## Tech Stack
 
 - HTML & CSS
