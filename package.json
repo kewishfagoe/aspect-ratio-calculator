@@ -7,7 +7,7 @@
     "clean": "rimraf dist",
     "copy-images": "cpy ./assets/images/ ../dist/ --cwd=src",
     "minify-css": "postcss ./src/assets/css/*.css --dir ./dist/assets/css/",
-    "minify-js": "mkdirp dist/assets/js && uglifyjs src/assets/js/scripts.js --compress --mangle --output dist/assets/js/scripts.js",
+    "minify-js": "mkdirp dist/assets/js && terser ./src/assets/js/scripts.js --compress drop_console=true --keep-classnames --mangle --output ./dist/assets/js/scripts.js",
     "minify-html": "html-minifier --input-dir src --output-dir dist --file-ext html --remove-comments --collapse-whitespace --minify-js true --minify-css true",
     "build": "npm run clean && npm run copy-images && npm run minify-css && npm run minify-js && npm run minify-html"
   },
@@ -31,6 +31,6 @@
     "postcss": "^8.4.14",
     "postcss-cli": "^10.0.0",
     "rimraf": "^3.0.2",
-    "uglify-js": "^3.16.3"
+    "terser": "^5.14.2"
   }
 }
