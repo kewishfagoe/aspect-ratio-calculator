@@ -46,6 +46,11 @@ window.addEventListener("DOMContentLoaded", function() {
           return false;
         }
 
+        // check if number is bigger than 7 digits
+        if (num.length > 7){
+            return false
+        }
+
         return true;
     }
 

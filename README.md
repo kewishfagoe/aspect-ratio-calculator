@@ -7,6 +7,8 @@ I tend to usually only have the width or the height of what the resized image sh
 This is a small aspect ratio calculator experiment to calculate the missing width or height sticking to the 
 aspect ratio of the original image. This project serves me for that particular use case.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1968befc-5dce-45e5-bd24-6eb4ac903cb1/deploy-status)](https://app.netlify.com/sites/curious-shortbread/deploys)
+
 ![](screenshot.png)
 
 ## Run Locally
